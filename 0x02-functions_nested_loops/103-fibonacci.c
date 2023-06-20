@@ -27,7 +27,7 @@ int main(void)
 		fib1 = fib2;
 		fib2 = sum;
 	}
-	printf("%d\n", total_sum);
+	printf("%ld\n", total_sum);
 
 	return (0);
 }
