@@ -9,9 +9,9 @@
  * Return: 1 is c if true else 0
 */
 
-int _isalpha(int ch)
+int _isalpha(int c)
 {
-	if ((ch >= 97 && ch <= 122) || (ch >= 65 && ch <= 90))
+	if ((c >= 97 && c <= 122) || (c >= 65 && c <= 90))
 		return (1);
 	return (0);
 }
