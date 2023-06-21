@@ -1,9 +1,29 @@
-# Low_Level Programming
+# 0x03. C - Debugging
 
-## Tasks :page_with_curl:
+<p align="center">
+  <img src="https://i.postimg.cc/NFQbkDfM/image.png"
+</p>
 
-C Programming Language 
- 
- - **[0x00. C - Hello, World](./0x00-hello_world)**
- - **[0x01. C - Variables, if, else, while](./0x01-variables_if_else_while)**
- - **[0x02. C - Functions, nested loops](./0x02-functions_nested_loops)**
+## Notes :bulb:
+What I learned from this project:
+
+* What is debugging
+* What are some methods of debugging manually
+* How to read the error messages
+
+---
+
+- **[0. Multiple mains](./0-main.c)**
+	* This program test that the function positive_or_negative() gives the correct output when given a case of 0.
+
+
+- **[1. Like, comment, subscribe](./1-main.c)**
+	* This program have comment out the part of the code that is causing the output to go into an infinite loop.
+
+
+- **[2. 0 > 972?](./2-largest_number.c)**
+	* This program prints the largest of three integers.
+
+
+- **[3. Leap year](./3-print_remaining_days.c)**
+	* This program converts a date to the day of year and determines how many days are left in the year, taking leap year into consideration.
