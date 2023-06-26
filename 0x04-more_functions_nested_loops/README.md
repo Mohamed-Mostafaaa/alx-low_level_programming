@@ -2,6 +2,9 @@
 
 In this project, I continued to learn about using nested loops and writing functions in C.
 
+## Helper File :raised_hands:
+
+* [_putchar.c](./_putchar.c): C function that writes a character to `stdout`.
 
 ## Header File :file_folder:
 
