@@ -66,7 +66,7 @@ functions written in the project.
   * [7-leet.c](./7-leet.c): C function that encodes a string into 1337, without
   `switch` or ternary operations and using only one `if` and two loops.
     * Letters `a` and `A` are replaced by `4`.
-    * Leters `e` and `E` are replaced by `3`.
+    * Letters `e` and `E` are replaced by `3`.
     * Letters `o` and `O` are replaced by `0`.
     * Letters `t` and `T` are replaced by `7`.
     * Letters `l` and `L` are replaced by `1`.
