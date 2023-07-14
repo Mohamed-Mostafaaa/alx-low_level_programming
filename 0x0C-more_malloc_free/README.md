@@ -2,13 +2,10 @@
 
 In this project, I learned about using `exit`, `calloc`, and `realloc` in C.
 
-## Tests :heavy_check_mark:
-
-* [tests](./tests): Folder of test files. Provided by Holberton School.
 
 ## Header File :file_folder:
 
-* [holberton.h](./holberton.h): Header file containing prototypes for all functions written in
+* [main.h](./main.h): Header file containing prototypes for all functions written in
 the project.
 
 | File                 | Prototype                                                                  |
