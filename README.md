@@ -2,7 +2,7 @@
 
 ## Tasks :page_with_curl:
 
-C Programming Language 
+C Programming Language '' `Low-level programming` '' and algorithm projects for ALX School
  
  - **[0x00. C - Hello, World](./0x00-hello_world)**
  - **[0x01. C - Variables, if, else, while](./0x01-variables_if_else_while)**
