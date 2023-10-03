@@ -13,7 +13,7 @@
 
 ssize_t read_textfile(const char *filename, size_t letters)
 {
-	ssize_t file, let, w;
+	ssize_t f, let, w;
 	char *text;
 
 	text = malloc(letters);
@@ -23,19 +23,19 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	if (filename == NULL)
 		return (0);
 
-	file = open(filename, O_RDONLY);
+	f = open(filename, O_RDONLY);
 
-	if (file == -1)
+	if (f == -1)
 	{
 		free(text);
 		return (0);
 	}
 
-	let = read(file, text, letters);
+	let = read(f, text, letters);
 
 	w = write(STDOUT_FILENO, text, let);
 
-	close(file);
+	close(f);
 
 	return (w);
 }
