@@ -9,6 +9,7 @@
  * @len: length of username
  * Return: the biggest number
  */
+
 int f4(char *usrn, int len)
 {
 	int ch;
@@ -38,6 +39,7 @@ int f4(char *usrn, int len)
  * @len: length of username
  * Return: multiplied char
  */
+
 int f5(char *usrn, int len)
 {
 	int ch;
@@ -60,6 +62,7 @@ int f5(char *usrn, int len)
  * @usrn: username
  * Return: a random char
  */
+
 int f6(char *usrn)
 {
 	int ch;
@@ -83,6 +86,7 @@ int f6(char *usrn)
  * @argv: arguments vector
  * Return: Always 0
  */
+
 int main(int argc, char **argv)
 {
 	char keygen[7];
@@ -90,8 +94,8 @@ int main(int argc, char **argv)
 	long alph[] = {
 		0x3877445248432d41, 0x42394530534e6c37, 0x4d6e706762695432,
 		0x74767a5835737956, 0x2b554c59634a474f, 0x71786636576a6d34,
-		0x723161513346655a, 0x6b756f494b646850 };
-	(void) argc;
+		0x723161513346655a, 0x6b756f494b646850};
+	(void)argc;
 
 	for (len = 0; argv[1][len]; len++)
 		;
